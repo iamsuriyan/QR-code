@@ -1,0 +1,47 @@
+:root{
+    --clr-White: hsl(0, 0%, 100%);
+    --clr-Light-gray: hsl(212, 45%, 89%);
+    --clr-Grayish-blue: hsl(220, 15%, 55%);
+    --clr-Dark-blue: hsl(218, 44%, 22%);
+
+    --font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: var(--clr-Light-gray);
+    text-align: center;
+    font-family: var(--font-family);
+    display: grid;
+    place-items: center;
+    margin-top: 100px;
+}
+.suriyan{
+    background-color: var(--clr-White);
+    display: grid;
+    place-items: center;
+    width: 310px;
+    height: 500px;
+    min-width:255px;
+    max-width: 1440px;
+    border-radius:20px;
+    border:1px solid white;
+    box-shadow: 0 2px 3px 2px rgb(13, 9, 233);
+
+}
+.sabari{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align:center;
+
+}
+.sabari h3{
+    color: var(--clr-Dark-blue);
+}
+img{
+    border-radius: 50px;
+    place-items: center;
+    width:0px;
+    min-width:255px;
+    max-width: 1440px;
+    padding-top: 15px;
+}
